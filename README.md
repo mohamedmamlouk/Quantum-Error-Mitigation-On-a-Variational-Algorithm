@@ -9,12 +9,13 @@ Through detailed simulation and theoretical modeling, we demonstrate that our er
 
 # Requirement for runing the script.
 
-In order to run this script, you need the data provided in the data file and some Python packages. To do so, you need to run:
+In order to run this script, you need the data provided in the data file and some Python packages. To do so, you need to run:  
+```python
+!pip install optax  
+!pip install qiskit==0.45.2  
+!pip install pennylane-qiskit  
+!pip install qiskit-aer  
+!pip install qiskit-ibm-runtime  
+!pip install penylane  
 
-!pip install optax//
-!pip install qiskit==0.45.2//
-!pip install pennylane-qiskit//
-!pip install qiskit-aer//
-!pip install qiskit-ibm-runtime//
-!pip install penylane//
 
